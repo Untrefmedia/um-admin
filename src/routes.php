@@ -1,10 +1,8 @@
 <?php
-Auth::routes();
 
-Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function () {
+Route::group(['prefix' => 'admin','middleware'=>['web', 'admin', 'auth:admin']], function ($route) {
 
-    Route::get('/', 'Untrefmedia\UMAdmin\App\Http\Controllers\Admin\AdminController@index');
-    Route::get('/dashboard', 'Untrefmedia\UMAdmin\App\Http\Controllers\Admin\DashboardController@index');
-
+//dd($route);
+    Route::get('/dashboard', '\Untrefmedia\UMAdmin\App\Http\Controllers\Admin\DashboardController@index');
 
 });
