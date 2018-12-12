@@ -1,0 +1,14 @@
+{
+  "name": "Untrefmedia/UMAdmin",
+  "authors": [
+    {
+      "name": "Ariel Kuhn",
+      "email": "akuhn@untref.edu.ar"
+    }
+  ],
+  "minimum-stability": "alpha",
+  "require": {
+    "jeroennoten/laravel-adminlte": "^1.24",
+    "yajra/laravel-datatables-oracle": "^8.13"
+  }
+}
