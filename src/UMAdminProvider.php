@@ -19,6 +19,8 @@ class UMAdminProvider extends ServiceProvider
         $this->publishes([
             __DIR__.'/../publish/public/'=>public_path(),
         ],'public');
+
+        $this->loadMigrationsFrom(__DIR__.'/database/migrations');
     }
 
     /**
