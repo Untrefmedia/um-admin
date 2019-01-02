@@ -30,7 +30,7 @@ class UMAdminProvider extends ServiceProvider
     {
 
         require __DIR__ . '/routes/web.php';
-        $this->loadViewsFrom(__DIR__ . '/views', 'umadmin');
+        $this->loadViewsFrom(__DIR__ . '/resources/views', 'umadmin');
 
 
 
