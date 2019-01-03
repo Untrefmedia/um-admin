@@ -17,4 +17,22 @@
     
 @section('js')
     <script src="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.11/summernote.js"></script>
+
+    <script>
+    $(document).ready(function () {
+        $('.summer').summernote({
+            toolbar: [
+                // [groupName, [list of button]]
+                ['style', ['bold', 'italic', 'underline', 'clear']],
+                ['font', ['strikethrough', 'superscript', 'subscript']],
+                ['fontsize', ['fontsize']],
+                ['color', ['color']],
+                ['para', ['ul', 'ol', 'paragraph']],
+                ['height', ['height']],
+                ['codeview'],
+                ["insert", ["link", "picture", "video"]]
+            ]
+        });
+    });
+    </script>
 @stop

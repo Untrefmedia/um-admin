@@ -13,7 +13,8 @@
 		"jeroennoten/laravel-adminlte": "^1.24",
 		"yajra/laravel-datatables-oracle": "^8.13",
 		"spatie/laravel-permission": "^2.9",
-		"laravelcollective/html": "^5.4.0"
+		"laravelcollective/html": "^5.4.0",
+		"cviebrock/eloquent-sluggable": "^4.5"
 	},
 	"require-dev": {}
 }
