@@ -14,8 +14,7 @@
 		"yajra/laravel-datatables-oracle": "^8.13",
 		"spatie/laravel-permission": "^2.9",
 		"laravelcollective/html": "^5.4.0",
-		"cviebrock/eloquent-sluggable": "^4.5",
-		"barryvdh/laravel-cors": "^0.11.2"
+		"cviebrock/eloquent-sluggable": "^4.5"
 	},
 	"require-dev": {}
 }
